@@ -1,4 +1,6 @@
+/* ============================== */
 /* Task 1 – Positioning using Flexbox */
+/* ============================== */
 
 /* 1. <body> is a flex container with vertical stacking */
 body {
@@ -25,3 +27,69 @@ aside {
     overflow-y: auto; /* enable scrolling */
 }
 
+/* ============================== */
+/* Task 3 – Some more styling */
+/* ============================== */
+
+/* Logo styling */
+.logo {
+    font-size: 2rem; /* Make it bigger */
+    margin-right: 10px;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Article styling */
+article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
